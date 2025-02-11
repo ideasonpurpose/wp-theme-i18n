@@ -1,0 +1,18 @@
+{
+  "name": "wp-theme-i18n",
+  "version": "0.0.0",
+  "description": "A shared library of i18n files for IOP's WordPress themes",
+  "license": "MIT",
+  "author": "Ideas On Purpose (https://www.ideasonpurpose.com)",
+  "contributors": [
+    "Joe Maller <joe@ideasonpurpose.com>"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "prettier": "@ideasonpurpose/prettier-config",
+  "dependencies": {
+    "@ideasonpurpose/prettier-config": "^1.0.0"
+  }
+}

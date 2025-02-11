@@ -1,0 +1,17 @@
+{
+    "name": "ideasonpurpose/wp-theme-i18n",
+    "description": "A shared library of i18n files for IOP's WordPress themes",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ideasonpurpose\\WP\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joe Maller",
+            "email": "joe@ideasonpurpose.com"
+        }
+    ],
+    "require": {}
+}
