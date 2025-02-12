@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: IOP WordPress Theme Internationalization\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-11 15:00:00+00:00\n"
-"PO-Revision-Date: 2025-02-11 15:25-0500\n"
+"PO-Revision-Date: 2025-02-12 17:40-0500\n"
 "Last-Translator: \n"
 "Language-Team: Ideas On Purpose <wordpress@ideasonpurpose.com>\n"
 "Language: es_ES\n"
@@ -35,3 +35,23 @@ msgstr "Pie de página"
 # ACF Option page title
 msgid "Footer Options"
 msgstr "Opciones de Pie de Página"
+
+# Design credits (footer)
+msgid "Design and development:"
+msgstr "Diseño y desarrollo por"
+
+# Design credits (footer)
+msgid "Website design and development by"
+msgstr "Diseño y desarrollo web por"
+
+# Common Read More string (title case)
+msgid "Read More"
+msgstr "Leer Más"
+
+# Common Read More string (sentence case)
+msgid "Read more"
+msgstr "Leer más"
+
+# Common Read More string (lower case)
+msgid "read more"
+msgstr "leer más"

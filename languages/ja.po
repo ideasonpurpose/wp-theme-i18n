@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: IOP WordPress Theme Internationalization\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-11 15:00:00+00:00\n"
-"PO-Revision-Date: 2025-02-11 15:32-0500\n"
+"PO-Revision-Date: 2025-02-12 17:39-0500\n"
 "Last-Translator: \n"
 "Language-Team: Ideas On Purpose <wordpress@ideasonpurpose.com>\n"
 "Language: ja_JP\n"
@@ -35,3 +35,23 @@ msgstr "フッター"
 # ACF Option page title
 msgid "Footer Options"
 msgstr "フッターオプション"
+
+# Design credits (footer)
+msgid "Design and development:"
+msgstr "デザインと開発:"
+
+# Design credits (footer)
+msgid "Website design and development by"
+msgstr "ウェブサイトのデザインと開発:"
+
+# Common Read More string (title case)
+msgid "Read More"
+msgstr "続きを読む"
+
+# Common Read More string (sentence case)
+msgid "Read more"
+msgstr "続きを読む"
+
+# Common Read More string (lower case)
+msgid "read more"
+msgstr "続きを読む"

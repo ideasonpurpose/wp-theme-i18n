@@ -35,3 +35,23 @@ msgstr ""
 msgid "Footer Options"
 msgstr ""
 
+# Design credits (footer)
+msgid "Design and development:"
+msgstr ""
+
+# Design credits (footer)
+msgid "Website design and development by"
+msgstr ""
+
+# Common Read More string (title case)
+msgid "Read More"
+msgstr ""
+
+# Common Read More string (sentence case)
+msgid "Read more"
+msgstr ""
+
+# Common Read More string (lower case)
+msgid "read more"
+msgstr ""
+
