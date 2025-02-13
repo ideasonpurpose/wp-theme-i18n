@@ -13,7 +13,7 @@ class I18n
          */
         add_action(
             'after_setup_theme',
-            fn() => load_theme_textdomain($this->text_domain, __FILE__ . '/languages')
+            fn() => load_theme_textdomain($this->text_domain, dirname(__DIR__) . '/languages')
         );
     }
 }
