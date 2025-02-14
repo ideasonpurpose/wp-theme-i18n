@@ -64,4 +64,4 @@ Available translations appear as a list. Select a string, then enter the transla
 
 Save the file alongside **language/wp-core-theme.pot**. Poedit will create two files, a human-readable **xx_XX.po** and an optimized, machine-readable **xx_XX.po** file.
 
-Do not hand-edit **\*.po** files or they will no longer be in sync with the generated **\*.mo** files.
+The **\*.po** files can be hand-edited, but they will need to be opened and saved with Poedit to keep the  generated **\*.mo** files in sync. 
