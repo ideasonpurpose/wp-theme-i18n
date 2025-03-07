@@ -35,6 +35,10 @@ msgstr ""
 msgid "Footer Options"
 msgstr ""
 
+# Design credits (admin)
+msgid "Design and development by %s."
+msgstr ""
+
 # Design credits (footer)
 msgid "Design and development:"
 msgstr ""
