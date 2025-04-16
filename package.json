@@ -8,7 +8,9 @@
     "Joe Maller <joe@ideasonpurpose.com>"
   ],
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "version": "version-everything && auto-changelog && git add -u"
+  },
   "prettier": "@ideasonpurpose/prettier-config",
   "dependencies": {
     "@ideasonpurpose/prettier-config": "^1.0.1"
