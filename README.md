@@ -1,6 +1,6 @@
 # IOP WordPress Theme Internationalization
 
-#### Version 0.0.0
+#### Version 0.0.3
 
 This library contains i18n files for translating common elements and features.  This library should be included in all our delivered themes and will provide shared, baseline translations across projects. Add new languages here so that all projects can benefit from expanded multi-lingual support.
 
