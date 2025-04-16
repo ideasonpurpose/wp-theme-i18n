@@ -1,6 +1,10 @@
 # IOP WordPress Theme Internationalization
 
-This library contains i18n files for translating common elements and features. This library should be included in all our delivered themes and will provide shared, baseline translations across projects. Add new languages here so that all projects can benefit from expanded multi-lingual support.
+#### Version 0.0.0
+
+This library contains i18n files for translating common elements and features.  This library should be included in all our delivered themes and will provide shared, baseline translations across projects. Add new languages here so that all projects can benefit from expanded multi-lingual support.
+
+While this was built for use at Ideas On Purpose, the language strings are mostly common phrases and may be useful as a starting point.
 
 ## Installation
 
@@ -33,7 +37,7 @@ new WP\I18n();
 
 ### Text Domain
 
-The text domain for this projects is **`iop-wp`**
+The text domain for this projects is **`iopwp`**
 Example translations look like this:
 
 ```php
@@ -44,7 +48,7 @@ __('Site Options', 'iopwp');
 
 Primarily strings from common things like "Site Options", "Header" and "Footer", but also common menu names like "Main Menu" and "Footer Menu".
 
-Custom Post_types and Taxonomies built from [wp-data-model](https://github.com/ideasonpurpose/wp-data-model) should include their own translation files.
+Custom post_types and Taxonomies built from [wp-data-model](https://github.com/ideasonpurpose/wp-data-model) should include their own translation files.
 
 ## Adding translations
 
@@ -64,4 +68,4 @@ Available translations appear as a list. Select a string, then enter the transla
 
 Save the file alongside **language/wp-core-theme.pot**. Poedit will create two files, a human-readable **xx_XX.po** and an optimized, machine-readable **xx_XX.po** file.
 
-The **\*.po** files can be hand-edited, but they will need to be opened and saved with Poedit to keep the  generated **\*.mo** files in sync. 
+The **\*.po** files can be hand-edited, but they will need to be opened and saved with Poedit to keep the generated **\*.mo** files in sync.
