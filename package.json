@@ -1,6 +1,6 @@
 {
   "name": "wp-theme-i18n",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A shared library of i18n files for IOP's WordPress themes",
   "license": "MIT",
   "author": "Ideas On Purpose (https://www.ideasonpurpose.com)",
@@ -9,11 +9,14 @@
   ],
   "main": "index.js",
   "scripts": {
-    "version": "version-everything && auto-changelog && git add -u"
+    "version": "version-everything && git add -u"
   },
   "prettier": "@ideasonpurpose/prettier-config",
   "dependencies": {
     "@ideasonpurpose/prettier-config": "^1.0.1"
+  },
+  "devDependencies": {
+    "version-everything": "^0.11.4"
   },
   "version-everything": {
     "files": [
