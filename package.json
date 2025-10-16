@@ -1,6 +1,6 @@
 {
   "name": "wp-theme-i18n",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A shared library of i18n files for IOP's WordPress themes",
   "license": "MIT",
   "author": "Ideas On Purpose (https://www.ideasonpurpose.com)",
