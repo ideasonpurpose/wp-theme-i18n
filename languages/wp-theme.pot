@@ -47,6 +47,14 @@ msgstr ""
 msgid "Website design and development by"
 msgstr ""
 
+# Custom Login Page byline (from wp-theme-init)
+msgid "A WordPress site by %s"
+msgstr ""
+
+# Custom Login Page byline (from wp-theme-init) with period
+msgid "A WordPress site by %s."
+msgstr ""
+
 # Common Read More string (title case)
 msgid "Read More"
 msgstr ""
