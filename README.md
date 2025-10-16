@@ -2,9 +2,35 @@
 
 #### Version 0.0.3
 
-This library contains i18n files for translating common elements and features.  This library should be included in all our delivered themes and will provide shared, baseline translations across projects. Add new languages here so that all projects can benefit from expanded multi-lingual support.
+This library contains i18n files for translating common elements and features. This library should be included in all our delivered themes and will provide shared, baseline translations across projects. Add new languages here so that all projects can benefit from expanded multi-lingual support.
 
 While this was built for use at Ideas On Purpose, the language strings are mostly common phrases and may be useful as a starting point.
+
+## What's in here?
+
+Primarily strings from common things like "Site Options", "Header" and "Footer", but also common menu names like "Main Menu" and "Footer Menu".
+
+Custom post_types and Taxonomies built from [wp-data-model](https://github.com/ideasonpurpose/wp-data-model) should include their own translation files.
+
+## Adding translations
+
+The translations in this project use the [gettext Portable Object Template](https://www.icanlocalize.com/site/tutorials/how-to-translate-with-gettext-po-and-pot-files/) system.
+
+These instructions use the mostly-free [Poedit](https://poedit.net) application. Other tools may also work.
+
+### Add or Update Language Translations
+
+- **_Update an existing translation:_**<br>
+  Open the **\*.po** file with Poedit. Choose **Translation > Update from POT File...**, then select **language/wp-core-theme.pot** to refresh the strings available for translation.
+
+- **_Add a new language translation:_**<br>
+  Select **File > New from POT/PO File...**, then open **language/wp-core-theme.pot**. Select a language which includes a country in parentheses, then click OK. (WordPress needs the country-code to correctly associate translations)
+
+Available translations appear as a list. Select a string, then enter the translation at the bottom of the window. Translation targets are case-sensitive, so "Dog" and "dog" will both need to be translated.
+
+Save the file alongside **language/wp-core-theme.pot**. Poedit will create two files, a human-readable **xx_XX.po** and an optimized, machine-readable **xx_XX.po** file.
+
+The **\*.po** files can be hand-edited, but they will need to be opened and saved with Poedit to keep the generated **\*.mo** files in sync.
 
 ## Installation
 
@@ -43,29 +69,3 @@ Example translations look like this:
 ```php
 __('Site Options', 'iopwp');
 ```
-
-## What's in here?
-
-Primarily strings from common things like "Site Options", "Header" and "Footer", but also common menu names like "Main Menu" and "Footer Menu".
-
-Custom post_types and Taxonomies built from [wp-data-model](https://github.com/ideasonpurpose/wp-data-model) should include their own translation files.
-
-## Adding translations
-
-The translations in this project use the [gettext Portable Object Template](https://www.icanlocalize.com/site/tutorials/how-to-translate-with-gettext-po-and-pot-files/) system.
-
-These instructions use the mostly-free [Poedit](https://poedit.net) application. Other tools may also work.
-
-### Add or Update Language Translations
-
-- **_Update an existing translation:_**<br>
-  Open the **\*.po** file with Poedit. Choose **Translation > Update from POT File...**, then select select **language/wp-core-theme.pot** to refresh the strings available for translation.
-
-- **_Add a new language translation:_**<br>
-  Select **File > New from POT/PO File...**, then open **language/wp-core-theme.pot**. Select a language which includes a country in parentheses, then click OK. (WordPress needs the country-code to correctly associate translations)
-
-Available translations appear as a list. Select a string, then enter the translation at the bottom of the window. Translation targets are case-sensitive, so "Dog" and "dog" will both need to be translated.
-
-Save the file alongside **language/wp-core-theme.pot**. Poedit will create two files, a human-readable **xx_XX.po** and an optimized, machine-readable **xx_XX.po** file.
-
-The **\*.po** files can be hand-edited, but they will need to be opened and saved with Poedit to keep the generated **\*.mo** files in sync.
