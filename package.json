@@ -7,8 +7,11 @@
   "contributors": [
     "Joe Maller <joe@ideasonpurpose.com>"
   ],
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "i18n:mo": "node scripts/compile-mo.js",
+    "preversion": "npm run i18n:mo",
     "version": "version-everything && git add -u"
   },
   "prettier": "@ideasonpurpose/prettier-config",
@@ -16,6 +19,7 @@
     "@ideasonpurpose/prettier-config": "^1.0.1"
   },
   "devDependencies": {
+    "gettext-parser": "^10.0.0",
     "version-everything": "^0.11.4"
   },
   "version-everything": {
