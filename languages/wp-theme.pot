@@ -68,3 +68,7 @@ msgstr ""
 msgid "read more"
 msgstr ""
 
+# Search form submit button
+msgid "Search"
+msgstr ""
+

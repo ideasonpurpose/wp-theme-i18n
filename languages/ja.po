@@ -68,3 +68,7 @@ msgstr "続きを読む"
 # Common Read More string (lower case)
 msgid "read more"
 msgstr "続きを読む"
+
+# Search form submit button
+msgid "Search"
+msgstr "検索"

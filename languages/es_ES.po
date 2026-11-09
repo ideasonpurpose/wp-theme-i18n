@@ -68,3 +68,7 @@ msgstr "Leer más"
 # Common Read More string (lower case)
 msgid "read more"
 msgstr "leer más"
+
+# Search form submit button
+msgid "Search"
+msgstr "Buscar"
