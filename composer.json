@@ -4,7 +4,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ideasonpurpose\\WP\\": "src/"
+            "IdeasOnPurpose\\WP\\": "src/"
         }
     },
     "authors": [
