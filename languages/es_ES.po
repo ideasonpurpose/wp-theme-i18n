@@ -10,23 +10,24 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.8\n"
 
 # ACF Options pages
 msgid "Global Theme Options"
-msgstr "Opciones de Tema Global"
+msgstr "Opciones globales del tema"
 
 # Block Editor Sidebar ACF Field
 msgid "Site Options"
-msgstr "Opciones del Sitio"
+msgstr "Opciones del sitio"
 
 # ACF Option page
 msgid "Header"
-msgstr "Encabezado"
+msgstr "Cabecera"
 
 # ACF Option page title
 msgid "Header Options"
-msgstr "Opciones de Encabezado"
+msgstr "Opciones de la cabecera"
 
 # ACF Option page
 msgid "Footer"
@@ -34,7 +35,7 @@ msgstr "Pie de página"
 
 # ACF Option page title
 msgid "Footer Options"
-msgstr "Opciones de Pie de Página"
+msgstr "Opciones del pie de página"
 
 # Design credits (footer)
 msgid "Design and development by %s."
@@ -42,7 +43,7 @@ msgstr "Diseño y desarrollo por %s."
 
 # Design credits (footer)
 msgid "Design and development:"
-msgstr "Diseño y desarrollo por"
+msgstr "Diseño y desarrollo:"
 
 # Design credits (footer)
 msgid "Website design and development by"
@@ -50,15 +51,15 @@ msgstr "Diseño y desarrollo web por"
 
 # Custom Login Page byline (from wp-theme-init)
 msgid "A WordPress site by %s"
-msgstr "Un sitio web de WordPress de %s"
+msgstr "Un sitio de WordPress de %s"
 
 # Custom Login Page byline (from wp-theme-init) with period
 msgid "A WordPress site by %s."
-msgstr "Un sitio web de WordPress de %s."
+msgstr "Un sitio de WordPress de %s."
 
 # Common Read More string (title case)
 msgid "Read More"
-msgstr "Leer Más"
+msgstr "Leer más"
 
 # Common Read More string (sentence case)
 msgid "Read more"

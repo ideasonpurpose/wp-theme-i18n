@@ -10,11 +10,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 3.8\n"
 
 # ACF Options pages
 msgid "Global Theme Options"
-msgstr "Options de thème global"
+msgstr "Options globales du thème"
 
 # Block Editor Sidebar ACF Field
 msgid "Site Options"
@@ -22,11 +23,11 @@ msgstr "Options du site"
 
 # ACF Option page
 msgid "Header"
-msgstr "En-tête"
+msgstr "Entête"
 
 # ACF Option page title
 msgid "Header Options"
-msgstr "Options d'en-tête"
+msgstr "Options d'entête"
 
 # ACF Option page
 msgid "Footer"
@@ -42,7 +43,7 @@ msgstr "Conception et développement par %s."
 
 # Design credits (footer)
 msgid "Design and development:"
-msgstr "Conception et développement :"
+msgstr "Conception et développement :"
 
 # Design credits (footer)
 msgid "Website design and development by"

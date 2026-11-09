@@ -3,13 +3,14 @@ msgstr ""
 "Project-Id-Version: IOP WordPress Theme Internationalization\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-11 15:00:00+00:00\n"
-"PO-Revision-Date: 2025-10-16 12:42-0400\n"
+"PO-Revision-Date: 2026-11-08 12:00-0400\n"
 "Last-Translator: \n"
 "Language-Team: Ideas On Purpose <wordpress@ideasonpurpose.com>\n"
-"Language: ja_JP\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.8\n"
 
 # ACF Options pages
@@ -18,7 +19,7 @@ msgstr "グローバルテーマオプション"
 
 # Block Editor Sidebar ACF Field
 msgid "Site Options"
-msgstr "サイトオプション"
+msgstr "サイトのオプション"
 
 # ACF Option page
 msgid "Header"
@@ -26,7 +27,7 @@ msgstr "ヘッダー"
 
 # ACF Option page title
 msgid "Header Options"
-msgstr "ヘッダーオプション"
+msgstr "ヘッダーのオプション"
 
 # ACF Option page
 msgid "Footer"
@@ -34,27 +35,27 @@ msgstr "フッター"
 
 # ACF Option page title
 msgid "Footer Options"
-msgstr "フッターオプション"
+msgstr "フッターのオプション"
 
-# Design credits (footer)
+# Design credits (admin)
 msgid "Design and development by %s."
-msgstr "デザインと開発: %s。"
+msgstr "%s によるデザインと開発。"
 
 # Design credits (footer)
 msgid "Design and development:"
-msgstr "デザインと開発:"
+msgstr "デザインと開発："
 
 # Design credits (footer)
 msgid "Website design and development by"
-msgstr "ウェブサイトのデザインと開発:"
+msgstr "ウェブサイトのデザインと開発："
 
 # Custom Login Page byline (from wp-theme-init)
 msgid "A WordPress site by %s"
-msgstr "%sによるWordPressサイト"
+msgstr "%s による WordPress サイト"
 
 # Custom Login Page byline (from wp-theme-init) with period
 msgid "A WordPress site by %s."
-msgstr "%sによるWordPressサイト。"
+msgstr "%s による WordPress サイト。"
 
 # Common Read More string (title case)
 msgid "Read More"
